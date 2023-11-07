@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-bg {
+  position: absolute;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.hero-upper {
+  color: aliceblue;
+  position: relative;
+  height: 100vh;
+  width: 75%;
+  z-index: 1;
+  /* border: 2px solid red; */
+}
+
+.best-selling {
+  height: 300px;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.testomonials {
+  height: 300px;
+  background-color: #2c2c2c;
+  width: 100%;
+}
+
+.contact {
+  background-image: url("./images/golmol.svg");
+  height: 400px;
+  width: 100%;
+}
+
+.contact-inner-div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.citem {
+  /* border: 2px solid red; */
+  height: 400px;
+  width: 300px;
+  min-width: 300px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  color: #ffffff;
+  position: relative;
+  /* padding-top: 10px; */
+}
+
+.form-text > p:first-child {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: -8px;
+  /* align-self: flex-start; */
+  position: relative;
+  /* left: 40px; */
+}
+
+.form-text > p:nth-child(2) {
+  color: #9e9e9e;
+  position: relative;
+  /* left: 40px; */
+  /* margin: 0; */
+}
+
+.my-form-name {
+  width: 80%;
+  background-color: #5f5f5f;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.my-form-name::placeholder {
+  color: #9d9d9d;
+}
+
+#exampleFormControlTextarea1 {
+  border-radius: 0px;
+  background-color: #5f5f5f;
+  border: 0px;
+}
+
+#exampleFormControlTextarea1::placeholder {
+  color: #9d9d9d;
+}
+
+.my-submit-button {
+  border: 0px;
+  width: 100px;
+  background-color: #242424;
+  color: #9d9d9d;
+}
+
+.contact-item3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item3-img img {
+  height: 150px;
+  /* align-self: flex-end; */
+}
+
+.align-p {
+  align-self: flex-start;
+  position: relative;
+  left: 50px;
+}
+
+.contact-item2 {
+  /* padding: 50px; */
+  padding-left: 100px;
+}
+
+.siufedb {
+  color: #f1f1f1;
+  margin-top: -5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #242424;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: cornsilk;
+}
