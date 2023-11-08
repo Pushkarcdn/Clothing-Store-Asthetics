@@ -13,13 +13,11 @@ body {
 #hero-bg {
   height: 100vh;
   width: 100%;
-  /* border: 2px solid red; */
   background-color: #606060;
   position: absolute;
 }
 
 .hero-img-div {
-  /* border: 2px solid red; */
   height: 100%;
   width: 100%;
 }
@@ -33,26 +31,21 @@ body {
 .hero-fw {
   width: 100%;
   height: 100vh;
-  /* position: relative; */
   z-index: 1;
 }
 
 .hero-upper {
   width: 100%;
   height: 100%;
-  /* border: 2px solid red; */
   position: relative;
 }
 
 .hero-upper-upper {
   width: 100%;
-  /* height: 40%; */
-  /* border: 2px solid blue; */
   display: flex;
 }
 .company-logo {
   display: inline-block;
-  /* height: 16em; */
   width: 15vw;
   position: absolute;
   left: 6vw;
@@ -65,7 +58,6 @@ body {
 }
 
 .my-nav {
-  /* border: 2px solid white; */
   width: 40%;
   max-width: 600px;
   display: flex;
@@ -86,10 +78,10 @@ body {
   text-decoration: none;
   color: black;
   font-size: 1.2vw;
+  font-family: "lacquer", sans-serif;
 }
 
 .hero-text {
-  /* border: 5px solid green; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,19 +93,10 @@ body {
 }
 
 .tagline {
-  /* border: 5px solid red; */
   text-transform: uppercase;
   color: #ffffff;
   display: block;
   width: 100%;
-  /* height: 65vh; */
-  /* position: absolute; */
-  /* bottom: 0px; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-  /* line-height: 0.5; */
   padding-bottom: 15%;
 }
 
@@ -129,11 +112,9 @@ body {
   bottom: 0px;
 }
 .scroll-down-text {
-  /* position: relative; */
-  /* bottom: 0px; */
   color: #847f7f;
-  /* bottom: 0px; */
   font-size: 0.8rem;
+  font-family: "Inter", sans-serif;
 }
 
 .best-selling {
@@ -159,12 +140,11 @@ body {
 }
 
 .best-selling-text > p:first-child {
-  font-weight: 700;
   font-size: 1.8rem;
-  letter-spacing: 1px;
   margin: 0;
   padding: 0;
   line-height: 1;
+  font-family: "Keania One", sans-serif;
 }
 
 .best-selling-text > p:nth-child(2) {
@@ -173,26 +153,31 @@ body {
   margin: 0;
   padding: 0;
   letter-spacing: 0.6px;
+  font-family: "Inter", sans-serif;
 }
 
 .best-selling-text > p:nth-child(3) {
   font-size: 0.8rem;
   margin-top: 8px;
   font-weight: 450;
+  font-family: "Inter", sans-serif;
 }
 
 .best-selling-text > p:nth-child(4) {
   font-size: 0.8rem;
   font-weight: 450;
+  font-family: "Inter", sans-serif;
 }
 
 .best-selling-text button {
   border: none;
   width: 100px;
   height: 28px;
-  background-color: #242424;
+  background-color: #000000;
   color: #d9d9d9;
   font-size: 0.74rem;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .testomonials {
@@ -299,6 +284,16 @@ body {
   border: 0px;
 }
 
+.form-control {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.my-textarea {
+  height: 60px;
+  width: 190px;
+}
+
 .my-form-name::placeholder {
   color: #9d9d9d;
 }
@@ -324,6 +319,7 @@ body {
   padding: 0;
   margin: 0;
   height: 200px;
+  padding-left: 100px;
 }
 
 .contact-item3 {
@@ -339,11 +335,8 @@ body {
 .align-p {
   align-self: flex-start;
   position: relative;
-  left: 50px;
-}
-
-.contact-item2 {
-  padding-left: 100px;
+  left: 60px;
+  font-size: 1rem;
 }
 
 .siufedb {
@@ -362,7 +355,7 @@ footer {
   font-size: 0.8rem;
 }
 
-a {
+footer a {
   text-decoration: none;
   color: cornsilk;
 }
